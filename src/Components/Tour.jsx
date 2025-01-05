@@ -5,10 +5,10 @@ const tour = () => {
       <div className="min-h-[600px] container max-w-[1280px] mx-auto mt-10 p-10">
         <div className="flex items-center justify-between flex-wrap">
           <div className="flex flex-col w-full md:w-1/2 gap-y-10 py-10">
-            <h1 className="text-4xl font-bold text-primary">Daily Tour</h1>
+            <h1 className="text-4xl font-bold text-textSub">Daily Tour</h1>
             <img src="./image/heading-border.png" className="w-fit" alt="" />
           </div>
-          <div className="w-full md:w-1/3 text-lg text-gray-800 mt-6 md:mt-0">
+          <div className="w-full md:w-1/3 text-lg text-gray-500 mt-6 md:mt-0">
             <p>
               Choose the service that's right for you and we'll create
               unforgettable moments on your journey to discover wonderful

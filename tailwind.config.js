@@ -7,7 +7,7 @@ module.exports = {
         primary: '#f45a2a',
         secondary: '#00FF00',
         tertiary: '#0000FF',
-        textPrimary: '#101828',
+        textSub: '#475467',
         footer:'#101828',
       },
       backgroundImage: {

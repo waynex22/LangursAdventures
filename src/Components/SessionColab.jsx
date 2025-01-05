@@ -1,7 +1,7 @@
 const SessionColab = () => {
     return (
       <>
-        <div className="relative w-full h-[600px]">
+        <div className="relative w-full md:h-[600px] h-fit">
           {/* Background Layers */}
           <div className="absolute inset-0 bg-slate-300 opacity-20"></div>
           <div
@@ -13,7 +13,7 @@ const SessionColab = () => {
             {/* Header Section */}
             <div className="flex flex-col lg:flex-row items-start justify-between">
               <div className="flex flex-col w-full lg:w-1/2 gap-y-6 py-6">
-                <h1 className="text-3xl lg:text-4xl font-bold">Partners</h1>
+                <h1 className="text-3xl lg:text-4xl font-bold text-textSub">Partners</h1>
                 <img
                   src="./image/heading-border.png"
                   className="w-24 lg:w-fit"
@@ -53,6 +53,34 @@ const SessionColab = () => {
                   src="./image/blackDiamond.png"
                   className="w-full h-auto max-w-[120px] object-contain"
                   alt="Black Diamond"
+                />
+              </div>
+              <div className="col-span-1 flex justify-center items-center">
+                <img
+                  src="./image/palms.png"
+                  className="w-full h-auto max-w-[120px] object-contain"
+                  alt="PALMS"
+                />
+              </div>
+              <div className="col-span-1 flex justify-center items-center">
+                <img
+                  src="./image/cloudly.png"
+                  className="w-full h-auto max-w-[120px] object-contain"
+                  alt="Cloudly"
+                />
+              </div>
+              <div className="col-span-1 flex justify-center items-center">
+                <img
+                  src="./image/company.png"
+                  className="w-full h-auto max-w-[120px] object-contain"
+                  alt="Company"
+                />
+              </div>
+              <div className="col-span-1 flex justify-center items-center">
+                <img
+                  src="./image/companyName.png"
+                  className="w-full h-auto max-w-[120px] object-contain"
+                  alt="CompanyName"
                 />
               </div>
               <div className="col-span-1 flex justify-center items-center">

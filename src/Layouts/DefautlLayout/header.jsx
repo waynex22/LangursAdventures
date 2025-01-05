@@ -12,11 +12,9 @@ const Header = () => {
     <div className="border-b border-b-slate-100 z-[9999] bg-white">
       <div className="container mx-auto h-[96px] p-6">
         <div className="flex items-center justify-between">
-          <div className="logo">
+          <Link to='/' className="logo">
             <img className="w-16" src="./image/logo.png" alt="Logo" />
-          </div>
-
-          {/* Desktop Navigation */}
+          </Link>
           <div className="hidden md:flex items-center gap-x-10">
             <Link
               to="/"
@@ -25,7 +23,7 @@ const Header = () => {
               Home
             </Link>
             <Link
-              to="/"
+              to="/tour"
               className="text-textPrimary hover:text-primary text-base font-bold"
             >
               Daily Tours
@@ -129,7 +127,7 @@ const Header = () => {
               Home
             </Link>
             <Link
-              to="/"
+              to="/tour"
               className="block text-textPrimary hover:text-primary text-base font-bold py-2"
             >
               Daily Tours

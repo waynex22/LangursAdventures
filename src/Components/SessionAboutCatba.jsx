@@ -1,7 +1,7 @@
 const sessionAboutCatba = () => {
   return (
     <div className="relative w-full h-[600px]">
-      <div className="absolute inset-0 bg-primary opacity-20"></div>
+      <div className="absolute inset-0 bg-orange-400/30 "></div>
       <div className="absolute inset-0 bg-cover bg-center bg-sessionImg"></div>
       <div className="relative z-10 flex flex-col lg:flex-row items-center justify-around gap-8 h-full container mx-auto px-4">
         <div className="w-full lg:w-[40%] flex justify-center">
