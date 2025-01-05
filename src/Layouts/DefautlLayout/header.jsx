@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <div className="border-b border-b-slate-100 z-[9999] bg-white">
+    <div className="border-b border-b-slate-100 sticky top-0 z-[9999] bg-white">
       <div className="container mx-auto h-[96px] p-6">
         <div className="flex items-center justify-between">
           <Link to='/' className="logo">
@@ -29,10 +29,10 @@ const Header = () => {
               Daily Tours
             </Link>
             <Link
-              to="/"
+              to="/faq"
               className="text-textPrimary hover:text-primary text-base font-bold"
             >
-              Reviews
+              FAQ
             </Link>
           </div>
 
@@ -52,9 +52,9 @@ const Header = () => {
               </svg>
               <p className="contact font-bold">Hotline: +84 338715366</p>
             </div>
-            <div className="booking font-bold px-6 py-2 bg-primary text-textPrimary rounded-xl hover:bg-orange-500 hover:text-white cursor-pointer">
+            <Link to='/booking' className="booking font-bold px-6 py-2 bg-primary text-textPrimary rounded-xl hover:bg-orange-500 hover:text-white cursor-pointer">
               <p>Book Now</p>
-            </div>
+            </Link>
             <div className="md:hidden flex items-center gap-x-5">
               <button onClick={toggleMenu} className="w-8">
                 {isMenuOpen ? (
@@ -133,10 +133,10 @@ const Header = () => {
               Daily Tours
             </Link>
             <Link
-              to="/"
+              to="/faq"
               className="block text-textPrimary hover:text-primary text-base font-bold py-2"
             >
-              Reviews
+              FAQ
             </Link>
           </div>
         )}

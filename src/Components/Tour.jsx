@@ -31,7 +31,7 @@ const tour = () => {
               with all levels to join the trip. Get the chance to see the
               stunning view of Lan Ha from 23 meters above the water!
             </p>
-            <Link to="/" className="my-2">
+            <Link to="/tour/rockclimbing" className="my-2">
               <button class="relative inline-flex items-center justify-start px-6 py-2 overflow-hidden font-medium transition-all bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-lg hover:bg-white group">
                 <span class="w-48 h-48 rounded rotate-[-40deg] bg-primary absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
                 <span class="relative w-full text-base font-semibold text-left text-primary transition-colors duration-300 ease-in-out group-hover:text-white ">
@@ -53,7 +53,7 @@ const tour = () => {
               easily be missed if you don't know they were there. Perfect way to
               connect with nature.
             </p>
-            <Link to="/" className="my-2">
+            <Link to="/tour/kayaking" className="my-2">
               <button class="relative inline-flex items-center justify-start px-6 py-2 overflow-hidden font-medium transition-all bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-lg hover:bg-white group">
                 <span class="w-48 h-48 rounded rotate-[-40deg] bg-primary absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
                 <span class="relative w-full text-base font-semibold text-left text-primary transition-colors duration-300 ease-in-out group-hover:text-white ">
@@ -76,7 +76,7 @@ const tour = () => {
               nothing but climbing shoes and chalk. Experience one of the most
               exhilarating sports Cat Ba has to offer.
             </p>
-            <Link to="/" className="my-2">
+            <Link to="/tour/deep-water-solo" className="my-2">
               <button class="relative inline-flex items-center justify-start px-6 py-2 overflow-hidden font-medium transition-all bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-lg hover:bg-white group">
                 <span class="w-48 h-48 rounded rotate-[-40deg] bg-primary absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
                 <span class="relative w-full text-base font-semibold text-left text-primary transition-colors duration-300 ease-in-out group-hover:text-white ">

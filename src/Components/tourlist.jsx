@@ -5,7 +5,7 @@ const tourList = () => {
     <>
       <div className="container mx-auto max-w-[1280px]">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-10">
-          <div className="p-4 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] rounded-2xl flex flex-col items-start gap-y-2">
+          <div className="p-4 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] bg-white rounded-2xl flex flex-col items-start gap-y-2">
             <img
               src="./image/rock-climbing.jpg"
               className="w-full h-[300px] object-cover rounded-2xl"
@@ -53,7 +53,7 @@ const tourList = () => {
                   Learn More
                   </span>
               </Link>
-              <Link to="/" className="my-2">
+              <Link to="/booking" className="my-2">
                 <button className="relative inline-flex items-center justify-start px-6 py-2 overflow-hidden font-medium transition-all bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-lg hover:bg-white group">
                   <span className="w-48 h-48 rounded rotate-[-40deg] bg-primary absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
                   <span className="relative w-full text-base font-semibold text-left text-primary transition-colors duration-300 ease-in-out group-hover:text-white ">
@@ -63,7 +63,7 @@ const tourList = () => {
               </Link>
             </div>
           </div>
-          <div className=" p-4 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] rounded-2xl flex flex-col items-start gap-y-2">
+          <div className=" p-4 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] bg-white rounded-2xl flex flex-col items-start gap-y-2">
             <img
               src="./image/kayaking.jpg"
               className="w-full h-[300px] object-cover rounded-2xl"
@@ -102,7 +102,7 @@ const tourList = () => {
               connect with nature.
             </p>
             <div className="flex items-center justify-between w-full">
-            <Link to="/" className="my-2 relative px-6 py-2 overflow-hidden font-medium text-gray-900 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group">
+            <Link to="/tour/kayaking" className="my-2 relative px-6 py-2 overflow-hidden font-medium text-gray-900 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group">
                   <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-200 group-hover:w-full ease"></span>
                   <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-200 group-hover:w-full ease"></span>
                   <span className="absolute inset-0 w-full h-full duration-300 delay-300 opacity-0 group-hover:opacity-100"></span>
@@ -110,7 +110,7 @@ const tourList = () => {
                   Learn More
                   </span>
               </Link>
-              <Link to="/" className="my-2">
+              <Link to="/booking" className="my-2">
                 <button className="relative inline-flex items-center justify-start px-6 py-2 overflow-hidden font-medium transition-all bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-lg hover:bg-white group">
                   <span className="w-48 h-48 rounded rotate-[-40deg] bg-primary absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
                   <span className="relative w-full text-base font-semibold text-left text-primary transition-colors duration-300 ease-in-out group-hover:text-white ">
@@ -120,7 +120,7 @@ const tourList = () => {
               </Link>
             </div>
           </div>
-          <div className=" p-4 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] rounded-2xl flex flex-col items-start gap-y-2">
+          <div className=" p-4 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] bg-white rounded-2xl flex flex-col items-start gap-y-2">
             <img
               src="./image/deep-water-solo.jpg"
               className="w-full h-[300px] object-cover rounded-2xl"
@@ -160,7 +160,7 @@ const tourList = () => {
               exhilarating sports Cat Ba has to offer.
             </p>
             <div className="flex items-center justify-between w-full">
-            <Link to="/" className="my-2 relative px-6 py-2 overflow-hidden font-medium text-gray-900 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group">
+            <Link to="/tour/deep-water-solo" className="my-2 relative px-6 py-2 overflow-hidden font-medium text-gray-900 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group">
                   <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-200 group-hover:w-full ease"></span>
                   <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-200 group-hover:w-full ease"></span>
                   <span className="absolute inset-0 w-full h-full duration-300 delay-300 opacity-0 group-hover:opacity-100"></span>
@@ -168,7 +168,7 @@ const tourList = () => {
                   Learn More
                   </span>
               </Link>
-              <Link to="/" className="my-2">
+              <Link to="/booking" className="my-2">
                 <button className="relative inline-flex items-center justify-start px-6 py-2 overflow-hidden font-medium transition-all bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-lg hover:bg-white group">
                   <span className="w-48 h-48 rounded rotate-[-40deg] bg-primary absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
                   <span className="relative w-full text-base font-semibold text-left text-primary transition-colors duration-300 ease-in-out group-hover:text-white ">
@@ -178,7 +178,7 @@ const tourList = () => {
               </Link>
             </div>
           </div>
-          <div className=" p-4 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] rounded-2xl flex flex-col items-start gap-y-2">
+          <div className=" p-4 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] bg-white rounded-2xl flex flex-col items-start gap-y-2">
             <img
               src="./image/treakking.jpg"
               className="w-full h-[300px] object-cover rounded-2xl"
@@ -215,7 +215,7 @@ const tourList = () => {
               the beaten track, through the maze of bamboos that we call Cat Ba.
             </p>
             <div className="flex items-center justify-between w-full">
-            <Link to="/" className="my-2 relative px-6 py-2 overflow-hidden font-medium text-gray-900 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group">
+            <Link to="/tour/trekking" className="my-2 relative px-6 py-2 overflow-hidden font-medium text-gray-900 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group">
                   <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-200 group-hover:w-full ease"></span>
                   <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-200 group-hover:w-full ease"></span>
                   <span className="absolute inset-0 w-full h-full duration-300 delay-300 opacity-0 group-hover:opacity-100"></span>
@@ -223,7 +223,7 @@ const tourList = () => {
                   Learn More
                   </span>
               </Link>
-              <Link to="/" className="my-2">
+              <Link to="/booking" className="my-2">
                 <button className="relative inline-flex items-center justify-start px-6 py-2 overflow-hidden font-medium transition-all bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-lg hover:bg-white group">
                   <span className="w-48 h-48 rounded rotate-[-40deg] bg-primary absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
                   <span className="relative w-full text-base font-semibold text-left text-primary transition-colors duration-300 ease-in-out group-hover:text-white ">
@@ -233,7 +233,7 @@ const tourList = () => {
               </Link>
             </div>
           </div>
-          <div className=" p-4 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] rounded-2xl flex flex-col items-start gap-y-2">
+          <div className=" p-4 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] bg-white rounded-2xl flex flex-col items-start gap-y-2">
             <img
               src="./image/OIP.jpg"
               className="w-full h-[300px] object-cover rounded-2xl"
@@ -274,7 +274,7 @@ const tourList = () => {
               back to town.
             </p>
             <div className="flex items-center justify-between w-full">
-            <Link to="/" className="my-2 relative px-6 py-2 overflow-hidden font-medium text-gray-900 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group">
+            <Link to="/tour/national-park" className="my-2 relative px-6 py-2 overflow-hidden font-medium text-gray-900 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group">
                   <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-200 group-hover:w-full ease"></span>
                   <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-200 group-hover:w-full ease"></span>
                   <span className="absolute inset-0 w-full h-full duration-300 delay-300 opacity-0 group-hover:opacity-100"></span>
@@ -282,7 +282,7 @@ const tourList = () => {
                   Learn More
                   </span>
               </Link>
-              <Link to="/" className="my-2">
+              <Link to="/booking" className="my-2">
                 <button className="relative inline-flex items-center justify-start px-6 py-2 overflow-hidden font-medium transition-all bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-lg hover:bg-white group">
                   <span className="w-48 h-48 rounded rotate-[-40deg] bg-primary absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
                   <span className="relative w-full text-base font-semibold text-left text-primary transition-colors duration-300 ease-in-out group-hover:text-white ">
@@ -292,7 +292,7 @@ const tourList = () => {
               </Link>
             </div>
           </div>
-          <div className=" p-4 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] rounded-2xl flex flex-col items-start gap-y-2">
+          <div className=" p-4 shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] bg-white rounded-2xl flex flex-col items-start gap-y-2">
             <img
               src="./image/gp.jpg"
               className="w-full h-[300px] object-cover rounded-2xl"
@@ -332,7 +332,7 @@ const tourList = () => {
               exhilarating sports Cat Ba has to offer.
             </p>
             <div className="flex items-center justify-between w-full">
-            <Link to="/" className="my-2 relative px-6 py-2 overflow-hidden font-medium text-gray-900 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group">
+            <Link to="/tour/glowing-plankton" className="my-2 relative px-6 py-2 overflow-hidden font-medium text-gray-900 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group">
                   <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-200 group-hover:w-full ease"></span>
                   <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-200 group-hover:w-full ease"></span>
                   <span className="absolute inset-0 w-full h-full duration-300 delay-300 opacity-0 group-hover:opacity-100"></span>
@@ -340,7 +340,7 @@ const tourList = () => {
                   Learn More
                   </span>
               </Link>
-              <Link to="/" className="my-2">
+              <Link to="/booking" className="my-2">
                 <button className="relative inline-flex items-center justify-start px-6 py-2 overflow-hidden font-medium transition-all bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-lg hover:bg-white group">
                   <span className="w-48 h-48 rounded rotate-[-40deg] bg-primary absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
                   <span className="relative w-full text-base font-semibold text-left text-primary transition-colors duration-300 ease-in-out group-hover:text-white ">
